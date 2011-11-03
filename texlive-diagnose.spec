@@ -1,3 +1,9 @@
+# revision 19387
+# category Package
+# catalog-ctan /macros/latex/contrib/diagnose
+# catalog-date 2006-12-17 18:48:45 +0100
+# catalog-license gpl
+# catalog-version 0.2
 Name:		texlive-diagnose
 Version:	0.2
 Release:	1
@@ -42,6 +48,7 @@ example document that examines the installation is available.
 %doc %{_texmfdistdir}/doc/latex/diagnose/diagnose.pdf
 %doc %{_texmfdistdir}/doc/latex/diagnose/diagnose.tex
 %doc %{_texmfdistdir}/doc/latex/diagnose/mls-diag.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ example document that examines the installation is available.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
