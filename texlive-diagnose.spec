@@ -1,6 +1,6 @@
 Name:		texlive-diagnose
 Version:	19387
-Release:	1
+Release:	2
 Summary:	A diagnostic tool for a TeX installation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/diagnose
