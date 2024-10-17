@@ -3,7 +3,7 @@ Version:	19387
 Release:	2
 Summary:	A diagnostic tool for a TeX installation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/diagnose
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/diagnose
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/diagnose.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/diagnose.doc.r%{version}.tar.xz
